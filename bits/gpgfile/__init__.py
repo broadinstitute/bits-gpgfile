@@ -85,8 +85,8 @@ class GPGFile(object):
 
         # print out any errors
         if errors:
-            print 'ERRORS:'
-            print '   - '+'\n   - '.join(sorted(errors))
-            print
+            print('ERRORS:')
+            print('   - '+'\n   - '.join(sorted(errors)))
+            print('')
 
         return lines

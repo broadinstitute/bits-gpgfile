@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 setup(
     name='bits-gpgfile',
 
-    version='1',
+    version='1.0',
 
     description='BITS GPGFile',
     long_description='',
@@ -29,5 +29,8 @@ setup(
     license='Apache Software License',
 
     packages=find_packages(),
+    install_requires=[
+        'pygpgme',
+    ],
     zip_safe=False,
 )
